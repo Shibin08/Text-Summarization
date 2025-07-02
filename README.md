@@ -19,37 +19,29 @@ This project presents a text summarization system capable of generating concise 
 - *NLTK* – Tokenization & preprocessing
 - *HuggingFace Transformers* – Abstractive summarization
 - *Scikit-learn / NumPy* – Utility support
+- *Transformers (BART, T5)
+- *Sumy
 
 
 
 # How to Run
 
-1. *Clone the repository*
+1. **Clone the repository**
 
    git clone https://github.com/Shibin08/Text-Summarization.git
-   cd Text-Summarization/TEXT_SUMMARIZATION_PROJECT
+   cd Text-Summarization/TEXT-SUMMARIZATION-main/TEXT_SUMMARIZATION_PROJECT/text_summarization
 
-2. *Create a virtual environment*
+2. **Install the dependencies**
 
-   python -m venv venv
-   source venv/bin/activate    # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   python -m spacy download en_core_web_sm
 
-3. *Install dependencies*
+3. **Launch the app**
 
-   pip install -r text_summarization/requirements.txt
+   streamlit run app.py
 
-4. *Download NLTK data*
-
-   python text_summarization/fix_nltk.py
-
-5. *Launch the app*
-
-   streamlit run text_summarization/app.py
-
-6. *Access the app*
+4. **Access the app**
    Open your browser and go to: http://localhost:8501
-
-
 
 
 # Team Members — Group No. 32
