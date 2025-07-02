@@ -29,18 +29,20 @@ This project presents a text summarization system capable of generating concise 
 1. **Clone the repository**
 
    git clone https://github.com/Shibin08/Text-Summarization.git
+
    cd Text-Summarization/TEXT-SUMMARIZATION-main/TEXT_SUMMARIZATION_PROJECT/text_summarization
 
-2. **Install the dependencies**
+3. **Install the dependencies**
 
    pip install -r requirements.txt
+
    python -m spacy download en_core_web_sm
 
-3. **Launch the app**
+5. **Launch the app**
 
    streamlit run app.py
 
-4. **Access the app**
+6. **Access the app**
    Open your browser and go to: http://localhost:8501
 
 
