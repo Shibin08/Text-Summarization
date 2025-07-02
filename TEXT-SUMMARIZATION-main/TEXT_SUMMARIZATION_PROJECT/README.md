@@ -29,7 +29,7 @@ This project presents a text summarization system capable of generating concise 
 
 1. **Clone the repository**
 
-   git clone https://github.com/your-username/text-summarizor.git
+   git clone https://github.com/Shibin08/t\Text-Summarization.git
    cd text-summarizor/text_summarization
 
 2. **Install dependencies**
