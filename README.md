@@ -11,16 +11,16 @@ This project presents a text summarization system capable of generating concise 
 -  Hybrid Summarization (combines both methods)  
 -  Adjustable summary length  
 -  Interactive Streamlit web interface
--
--  # Tools and Libraries
+
+# Tools and Libraries
 
 - *Python 3*
 - *Streamlit* – Web UI
 - *NLTK* – Tokenization & preprocessing
 - *HuggingFace Transformers* – Abstractive summarization
 - *Scikit-learn / NumPy* – Utility support
-- *Transformers (BART, T5)
-- *Sumy
+- *Transformers (BART, T5)*
+- *Sumy*
 
 
 
