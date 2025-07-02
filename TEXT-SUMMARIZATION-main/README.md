@@ -11,31 +11,40 @@ This project presents a text summarization system capable of generating concise 
 -  Hybrid Summarization (combines both methods)  
 -  Adjustable summary length  
 -  Interactive Streamlit web interface
--
--  # Tools and Libraries
+
+# Tools and Libraries
 
 - *Python 3*
 - *Streamlit* – Web UI
 - *NLTK* – Tokenization & preprocessing
 - *HuggingFace Transformers* – Abstractive summarization
 - *Scikit-learn / NumPy* – Utility support
+- *Transformers(t5,bart)*
+- *Sumy*
 
 
 
 # How to Run
 
-1. *Clone the repository*
+1. **Clone the repository**
 
-   git clone https://github.com/your-username/text-summarizor.git
-   cd text-summarizor/text_summarization
+git clone https://github.com/Shibin08/Text-Summarization.git
 
-2. *Install dependencies*
+cd Text-Summarization/TEXT-SUMMARIZATION-main/TEXT_SUMMARIZATION_PROJECT/text_summarization
 
-   pip install -r requirements.txt
+2. **Install the dependencies**
 
-3. *Launch the app*
+pip install -r requirements.txt
 
-   streamlit run app.py
+python -m spacy download en_core_web_sm
+
+3. **Launch the app**
+
+streamlit run app.py
+
+4. **Access the app**
+
+Open your browser and go to: http://localhost:8501
 
 
 
